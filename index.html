@@ -10,8 +10,9 @@
 </head>
 
 <body>
-  <div class="bg-white">
-    <header class="container fixed bg-white top-0">
+  <header class="bg-white sticky top-0">
+    <div class="container  bg-white top-0">
+
       <!-- eng tepasi -->
       <div class="flex items-center justify-between py-5">
         <a href="./index.html">
@@ -120,29 +121,311 @@
           </button>
         </div>
       </div>
-      <!-- /eng tepasi -->
+    </div>
+    <!-- /eng tepasi -->
 
-      <!-- nav qismi -->
-      <div class="flex items-center justify-between border-y border-black">
+    <!-- nav qismi -->
+    <div class=" border-y border-grey-200 ">
+      <div class="container flex items-center justify-between ">
         <div class="flex items-center ">
-          <a class="" href="./index.html">
+          <a class="border-r border-r-grey-200 bg-grey-200 border-b-2 border-b-red px-5 py-3 text-black font-Raleway font-bold"
+            href="./index.html">
             Asosiy
+          </a>
+          <a class="border-r border-r-grey-200 hover:bg-grey-200 transition hover:border-b-2 border-b-red border-b-red px-5 py-3 text-black font-Raleway font-bold"
+            href="./index.html">
+            Ommabop
+          </a>
+          <a class="border-r border-r-grey-200 hover:bg-grey-200 transition hover:border-b-2 border-b-red px-5 py-3 text-black font-Raleway font-bold"
+            href="./index.html">
+            Sodda talqin
+          </a>
+          <a class="border-r border-r-grey-200 hover:bg-grey-200 transition hover:border-b-2 border-b-red px-5 py-3 text-black font-Raleway font-bold"
+            href="./index.html">
+            Videoxabarlar
+          </a>
+          <a class="border-r border-r-grey-200 hover:bg-grey-200 transition hover:border-b-2 border-b-red px-5 py-3 text-black font-Raleway font-bold"
+            href="./index.html">
+            Audioxabarlar
+          </a>
+          <a class="border-r border-r-grey-200 hover:bg-grey-200 transition hover:border-b-2 border-b-red px-5 py-3 text-black font-Raleway font-bold"
+            href="./index.html">
+            Boshqalar
+          </a>
+          <a class="border-r border-r-grey-200 hover:bg-grey-200 transition hover:border-b-2 border-b-red px-5 py-3 text-black font-Raleway font-bold"
+            href="./index.html">
+            Hudud24
           </a>
         </div>
 
+        <div class="flex items-center ">
+          <button class="p-2.5 border-l border-l-grey-200 border-r border-r-grey-200">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="7" cy="7" r="7" transform="matrix(-1 0 0 1 20 4)" stroke="black" stroke-width="1.6"
+                stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M4 20L8 16" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
 
+          </button>
+          <select class="pt-3 pb-3.5 px-4 border-r border-r-grey-200 cursor-pointer">
+            <option>
+              O‘zbekcha
+            </option>
+            <option>
+              Русский
+            </option>
+            <option>
+              English
+            </option>
+          </select>
+        </div>
       </div>
+    </div>
+    <!-- /nav qismi -->
+  </header>
+
+<!-- hero -->
+  <main>
+    <div class="bg-[url('/img/Bg.png')] bg-cover">
+      <div class="container grid grid-cols-12 ">
+        <div class="col-span-6">
+          <h1 class="font-Minion text-white text-5xl mt-32">
+            Keyingi 7 yil katta o‘zgarishlarga to‘la bo'ladi
+          </h1>
+          <div class="flex items-center gap-3 mt-4 mb-6">
+            <p class="text-white text-sm py-1.5 px-3.5 rounded-full bg-white bg-opacity-10">
+              7 iyul 2023
+            </p>
+            <p class="text-white text-sm py-1.5 px-3.5 rounded-full bg-white bg-opacity-10">
+              O‘zbekiston
+            </p>
+          </div>
+          <p class="text-white text-base font-Raleway mb-8">
+            Shavkat Miromonovich qat'iyatli qat'iyat va xalqning qalbi bilan mamlakatni farovonlikning yangi
+            cho'qqilariga olib chiqishga tayyorgarlik ko'rish uchun saylovlarda ishonchli g'alaba qozondi!
+          </p>
+          <div class="flex items-center gap-3 text-white text-sm font-Raleway mb-[129px]">
+            <a class="bg-red py-3 px-10  flex gap-2 items-center hover:text-black" href="#">
+              Batafsil
+              <img class="group" src="./img/arrow-right.svg" alt="">
+            </a>
+            <a class="bg-white bg-opacity-10 py-3 px-5  flex gap-2 items-center hover:text-black " href="#">
+              Barcha yangiliklar
+            </a>
+          </div>
+
+          <div class="flex items-center gap-3 mb-10">
+            <a class="p-2.5 hover:bg-red rounded-full" href="#">
+              <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M1.68425 8.53659C8.2609 5.81999 12.6464 4.02904 14.8406 3.16374C21.1058 0.693141 22.4076 0.263972 23.2561 0.249649C23.4427 0.246683 23.86 0.290533 24.1303 0.498473C24.3585 0.674053 24.4213 0.911237 24.4514 1.07771C24.4814 1.24418 24.5188 1.6234 24.4891 1.91971C24.1496 5.30177 22.6805 13.5092 21.9332 17.2971C21.6169 18.9 20.9943 19.4374 20.3914 19.49C19.0813 19.6043 18.0865 18.6691 16.8176 17.8805C14.8321 16.6465 13.7103 15.8784 11.783 14.6742C9.55565 13.2826 10.9996 12.5178 12.2689 11.2678C12.6011 10.9407 18.3734 5.96286 18.4851 5.51129C18.4991 5.45482 18.5121 5.2443 18.3802 5.13314C18.2483 5.02198 18.0536 5.06 17.9131 5.09023C17.7139 5.13308 14.542 7.12079 8.39721 11.0534C7.49686 11.6395 6.68135 11.9251 5.95068 11.9101C5.14518 11.8936 3.59571 11.4783 2.44385 11.1234C1.03103 10.6879 -0.0918418 10.4577 0.00593535 9.71828C0.0568637 9.33313 0.616301 8.93923 1.68425 8.53659Z"
+                  fill="white" />
+              </svg>
+            </a>
+            <a class="p-2.5 hover:bg-red rounded-full" href="#">
+              <svg width="26" height="22" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M25.2499 2.92259C24.3312 3.4072 23.4124 3.56874 22.3406 3.73028C23.4124 3.08413 24.1781 2.1149 24.4843 0.822588C23.5656 1.46874 22.4937 1.79182 21.2687 2.1149C20.3499 1.14567 18.9718 0.499512 17.5937 0.499512C14.3781 0.499512 11.9281 3.73028 12.6937 6.96105C8.55931 6.79951 4.88431 4.69951 2.28119 1.46874C0.903064 3.89182 1.66869 6.96105 3.81244 8.57644C3.04681 8.57644 2.28119 8.25336 1.51556 7.93028C1.51556 10.3534 3.19994 12.6149 5.49681 13.261C4.73119 13.4226 3.96556 13.5841 3.19994 13.4226C3.81244 15.5226 5.64994 17.138 7.94681 17.138C6.10931 18.5918 3.35306 19.3995 0.749939 19.0764C3.04681 20.5303 5.64994 21.4995 8.40619 21.4995C17.7468 21.4995 22.9531 13.261 22.6468 5.66874C23.7187 5.02259 24.6374 4.05336 25.2499 2.92259Z"
+                  fill="white" />
+              </svg>
+            </a>
+            <a class="p-2.5 hover:bg-red rounded-full" href="#">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.5 0H5.5C2.47527 0 0 2.47419 0 5.5V16.5C0 19.5247 2.47527 22 5.5 22H16.5C19.5247 22 22 19.5247 22 16.5V5.5C22 2.47419 19.5247 0 16.5 0ZM11 15.5832C8.46834 15.5832 6.41658 13.5305 6.41658 11C6.41658 8.46834 8.46834 6.41658 11 6.41658C13.5305 6.41658 15.5834 8.46834 15.5834 11C15.5834 13.5305 13.5305 15.5832 11 15.5832ZM16.9584 6.41658C16.1983 6.41658 15.5834 5.80083 15.5834 5.04158C15.5834 4.28232 16.1983 3.66658 16.9584 3.66658C17.7185 3.66658 18.3334 4.28232 18.3334 5.04158C18.3334 5.80083 17.7185 6.41658 16.9584 6.41658Z"
+                  fill="white" />
+              </svg>
+
+            </a>
+            <a class="p-2.5 hover:bg-red rounded-full" href="#">
+              <svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M31.3313 4.30465C30.9633 2.92506 29.879 1.83855 28.5022 1.46982C26.0067 0.799805 16 0.799805 16 0.799805C16 0.799805 5.99337 0.799805 3.49781 1.46982C2.12103 1.83861 1.0367 2.92506 0.668671 4.30465C0 6.80523 0 12.0224 0 12.0224C0 12.0224 0 17.2397 0.668671 19.7402C1.0367 21.1198 2.12103 22.1611 3.49781 22.5298C5.99337 23.1998 16 23.1998 16 23.1998C16 23.1998 26.0066 23.1998 28.5022 22.5298C29.879 22.1611 30.9633 21.1198 31.3313 19.7402C32 17.2397 32 12.0224 32 12.0224C32 12.0224 32 6.80523 31.3313 4.30465ZM12.7273 16.7593V7.2856L21.0909 12.0226L12.7273 16.7593Z"
+                  fill="white" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-span-3"></div>
+
+        <div class="col-span-3 overflow-y-scroll max-h-[630px] ">
+
+          <a class="group text-white p-4" href="#">
+            <div class="flex justify-between">
+              <div class="flex items-center gap-1 py-1 px-2 border rounded-full ">
+                <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8.66667 1V3.66667M3.33334 1V3.66667M0.666672 6.33333H11.3333M2.66667 13H9.33334C10.4379 13 11.3333 12.1046 11.3333 11V4.33333C11.3333 3.22876 10.4379 2.33333 9.33334 2.33333H2.66667C1.5621 2.33333 0.666672 3.22877 0.666672 4.33334V11C0.666672 12.1046 1.5621 13 2.66667 13Z"
+                    stroke="white" stroke-opacity="0.5" stroke-width="1.25" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+                <p class="text-xs font-Raleway">
+                  8-oktabr, 23:23
+                </p>
+              </div>
+            </div>
+            <p class="font-Raleway font-bold text-base line-clamp-2 group-hover:text-red ">
+              Xorazmda 9-sinf o‘quvchilari sholi o‘rimiga jalb qilindi
+            </p>
+            <p class="font-Raleway line-clamp-2 text-sm ">
+              Xorazmda 9-sinf o‘quvchilari sholi o‘rimiga jalb qilindi
+              Bolalarning aytishicha, ularni dalaga maktab direktori yuborgan. Kun.uz direktor va sholi ekkan fermer
+              tug‘ishgan aka-ukalar ekanini aniqladi. Rasmiylar esa bunga direktorning aloqasi yo‘qligini bildirib,
+              faqat fermerning harakatlariga huquqiy baho berilishini aytmoqda.
+            </p>
+          </a>
+
+          <a class="group text-white p-4" href="#">
+            <div class="flex justify-between">
+              <div class="flex items-center gap-1 py-1 px-2 border rounded-full ">
+                <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8.66667 1V3.66667M3.33334 1V3.66667M0.666672 6.33333H11.3333M2.66667 13H9.33334C10.4379 13 11.3333 12.1046 11.3333 11V4.33333C11.3333 3.22876 10.4379 2.33333 9.33334 2.33333H2.66667C1.5621 2.33333 0.666672 3.22877 0.666672 4.33334V11C0.666672 12.1046 1.5621 13 2.66667 13Z"
+                    stroke="white" stroke-opacity="0.5" stroke-width="1.25" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+                <p class="text-xs font-Raleway">
+                  8-oktabr, 23:23
+                </p>
+              </div>
+            </div>
+            <p class="font-Raleway font-bold text-base line-clamp-2 group-hover:text-red ">
+              O‘zbekiston Rossiya bilan birgalikda Strategik rivojlanish markazi ochadi
+            </p>
+            <p class="font-Raleway line-clamp-2 text-sm ">
+              Direktor va sholi ekkan fermer tug‘ishgan aka-ukalar ekanini aniqladi. Rasmiylar esa bunga direktorning
+              aloqasi yo‘qligini bildirib, faqat fermerning harakatlariga huquqiy baho berilishini aytmoqda.
+            </p>
+          </a>
+
+          <a class="group text-white p-4" href="#">
+            <div class="flex justify-between">
+              <div class="flex items-center gap-1 py-1 px-2 border rounded-full ">
+                <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8.66667 1V3.66667M3.33334 1V3.66667M0.666672 6.33333H11.3333M2.66667 13H9.33334C10.4379 13 11.3333 12.1046 11.3333 11V4.33333C11.3333 3.22876 10.4379 2.33333 9.33334 2.33333H2.66667C1.5621 2.33333 0.666672 3.22877 0.666672 4.33334V11C0.666672 12.1046 1.5621 13 2.66667 13Z"
+                    stroke="white" stroke-opacity="0.5" stroke-width="1.25" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+                <p class="text-xs font-Raleway">
+                  8-oktabr, 23:23
+                </p>
+              </div>
+            </div>
+            <p class="font-Raleway font-bold text-base line-clamp-2 group-hover:text-red ">
+              Shavkat Mirziyoyev Rossiyaga jo‘nab ketdi
+            </p>
+            <p class="font-Raleway line-clamp-2 text-sm ">
+              Davlat rahbari Qozon va Moskva shaharlarida bo‘ladi, tor va kengaytirilgan tarkibda oliy darajadagi
+              muzokaralar bo‘lib o‘tadi.
+            </p>
+          </a>
+
+          <a class="group text-white p-4" href="#">
+            <div class="flex justify-between">
+              <div class="flex items-center gap-1 py-1 px-2 border rounded-full ">
+                <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8.66667 1V3.66667M3.33334 1V3.66667M0.666672 6.33333H11.3333M2.66667 13H9.33334C10.4379 13 11.3333 12.1046 11.3333 11V4.33333C11.3333 3.22876 10.4379 2.33333 9.33334 2.33333H2.66667C1.5621 2.33333 0.666672 3.22877 0.666672 4.33334V11C0.666672 12.1046 1.5621 13 2.66667 13Z"
+                    stroke="white" stroke-opacity="0.5" stroke-width="1.25" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+                <p class="text-xs font-Raleway">
+                  8-oktabr, 23:23
+                </p>
+              </div>
+            </div>
+            <p class="font-Raleway font-bold text-base line-clamp-2 group-hover:text-red ">
+              Rossiya Mudofaa vazirligi tunda o‘nlab dronlar hujum qilgani haqida xabar berdi
+            </p>
+            <p class="font-Raleway line-clamp-2 text-sm ">
+              Rossiya Mudofaa vazirligi tunda 31 ta dron urib tushirilganini da’vo qilmoqda. Astra xabariga ko‘ra,
+              Bryansk viloyatidagi harbiy qismga dron hujumi amalga oshirilgan.
+            </p>
+          </a>
+
+          <a class="group text-white p-4" href="#">
+            <div class="flex justify-between">
+              <div class="flex items-center gap-1 py-1 px-2 border rounded-full ">
+                <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8.66667 1V3.66667M3.33334 1V3.66667M0.666672 6.33333H11.3333M2.66667 13H9.33334C10.4379 13 11.3333 12.1046 11.3333 11V4.33333C11.3333 3.22876 10.4379 2.33333 9.33334 2.33333H2.66667C1.5621 2.33333 0.666672 3.22877 0.666672 4.33334V11C0.666672 12.1046 1.5621 13 2.66667 13Z"
+                    stroke="white" stroke-opacity="0.5" stroke-width="1.25" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+                <p class="text-xs font-Raleway">
+                  8-oktabr, 23:23
+                </p>
+              </div>
+            </div>
+            <p class="font-Raleway font-bold text-base line-clamp-2 group-hover:text-red ">
+              Xorazmda 9-sinf o‘quvchilari sholi o‘rimiga jalb qilindi
+            </p>
+            <p class="font-Raleway line-clamp-2 text-sm ">
+              Xorazmda 9-sinf o‘quvchilari sholi o‘rimiga jalb qilindi
+              Bolalarning aytishicha, ularni dalaga maktab direktori yuborgan. Kun.uz direktor va sholi ekkan fermer
+              tug‘ishgan aka-ukalar ekanini aniqladi. Rasmiylar esa bunga direktorning aloqasi yo‘qligini bildirib,
+              faqat fermerning harakatlariga huquqiy baho berilishini aytmoqda.
+            </p>
+          </a>
+
+          <a class="group text-white p-4" href="#">
+            <div class="flex justify-between">
+              <div class="flex items-center gap-1 py-1 px-2 border rounded-full ">
+                <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8.66667 1V3.66667M3.33334 1V3.66667M0.666672 6.33333H11.3333M2.66667 13H9.33334C10.4379 13 11.3333 12.1046 11.3333 11V4.33333C11.3333 3.22876 10.4379 2.33333 9.33334 2.33333H2.66667C1.5621 2.33333 0.666672 3.22877 0.666672 4.33334V11C0.666672 12.1046 1.5621 13 2.66667 13Z"
+                    stroke="white" stroke-opacity="0.5" stroke-width="1.25" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+                <p class="text-xs font-Raleway">
+                  8-oktabr, 23:23
+                </p>
+              </div>
+            </div>
+            <p class="font-Raleway font-bold text-base line-clamp-2 group-hover:text-red ">
+              Xorazmda 9-sinf o‘quvchilari sholi o‘rimiga jalb qilindi
+            </p>
+            <p class="font-Raleway line-clamp-2 text-sm ">
+              Xorazmda 9-sinf o‘quvchilari sholi o‘rimiga jalb qilindi
+              Bolalarning aytishicha, ularni dalaga maktab direktori yuborgan. Kun.uz direktor va sholi ekkan fermer
+              tug‘ishgan aka-ukalar ekanini aniqladi. Rasmiylar esa bunga direktorning aloqasi yo‘qligini bildirib,
+              faqat fermerning harakatlariga huquqiy baho berilishini aytmoqda.
+            </p>
+          </a>
+
+          <a class="group text-white p-4" href="#">
+            <div class="flex justify-between">
+              <div class="flex items-center gap-1 py-1 px-2 border rounded-full ">
+                <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M8.66667 1V3.66667M3.33334 1V3.66667M0.666672 6.33333H11.3333M2.66667 13H9.33334C10.4379 13 11.3333 12.1046 11.3333 11V4.33333C11.3333 3.22876 10.4379 2.33333 9.33334 2.33333H2.66667C1.5621 2.33333 0.666672 3.22877 0.666672 4.33334V11C0.666672 12.1046 1.5621 13 2.66667 13Z"
+                    stroke="white" stroke-opacity="0.5" stroke-width="1.25" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+                <p class="text-xs font-Raleway">
+                  8-oktabr, 23:23
+                </p>
+              </div>
+            </div>
+            <p class="font-Raleway font-bold text-base line-clamp-2 group-hover:text-red ">
+              Xorazmda 9-sinf o‘quvchilari sholi o‘rimiga jalb qilindi
+            </p>
+            <p class="font-Raleway line-clamp-2 text-sm ">
+              Xorazmda 9-sinf o‘quvchilari sholi o‘rimiga jalb qilindi
+              Bolalarning aytishicha, ularni dalaga maktab direktori yuborgan. Kun.uz direktor va sholi ekkan fermer
+              tug‘ishgan aka-ukalar ekanini aniqladi. Rasmiylar esa bunga direktorning aloqasi yo‘qligini bildirib,
+              faqat fermerning harakatlariga huquqiy baho berilishini aytmoqda.
+            </p>
+          </a>
+        </div>
+      </div>
+</div>
+<!-- /hero -->
 
 
-
-    </header>
-  </div>
-
-
-
-
-
-
+  </main>
 
 
 
@@ -156,6 +439,7 @@
       theme: {
         fontFamily: {
           Raleway: 'Raleway',
+          Minion: 'Minion',
         },
         extend: {
           container: {
@@ -181,7 +465,7 @@
             grey: {
               DEFAULT: '#697583',
               100: '#A4B0BE',
-              200: 'E1E3E6',
+              200: '#E1E3E6',
             }
 
 

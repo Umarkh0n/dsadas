@@ -2,3 +2,8 @@
     font-family: Raleway ;
     src: url(../font/Raleway/static/Raleway-Regular.ttf);
 }
+
+@font-face {
+    font-family: Minion ;
+    src: url(../font/PT_Serif_Caption/PTSerifCaption-Regular.ttf);
+}
